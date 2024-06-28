@@ -25,14 +25,16 @@
 **Curl Command:**
 ```sh
 curl -X GET http://localhost:8080/
+```
 
-Login
+### Login
 
-URL: /login
-Method: POST
-Description: Authenticate and receive a JWT token.
+**URL:** `/login`  
+**Method:** `POST`  
+**Description:** Authenticate and receive a JWT token.
 
-Curl Command: 
+**Curl Command:**  
+```
 curl -X POST http://localhost:8080/login -d '{"username":"admin","password":"admin"}' -H "Content-Type: application/json"
 ```
 
